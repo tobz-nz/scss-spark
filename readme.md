@@ -29,6 +29,7 @@ Then in you view:
 ```
 
 You can also get the render css as a string and do whatever you want with it:
+
 ```php
 
 class App extends CI_Controller {
@@ -37,7 +38,7 @@ class App extends CI_Controller {
 
 		$this->load->spark('scss/[version]');
 		$css = render_scss('static/scss/layout.scss');
-		
+
 	}
 
 }
