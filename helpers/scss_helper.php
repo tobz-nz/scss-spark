@@ -82,4 +82,4 @@ if (!function_exists('render_scss')) {
 }
 
 /* End of file scss_helper.php */
-/* Location: sparks/scss/.../helpers/scss_helper.php */
+/* Location: sparks/scss/../helpers/scss_helper.php */

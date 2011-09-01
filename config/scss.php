@@ -28,4 +28,4 @@ $config['scss_cache_url'] = 'static/css/';
 $config['scss_cache_path'] = FCPATH.$config['scss_cache_url'];
 
 /* End of file scss.php */
-/* Location: sparks/scss/.../config/scss.php */
+/* Location: sparks/scss/../config/scss.php */

@@ -6,4 +6,4 @@ $autoload['config'] = array('scss');
 $autoload['helper'] = array('scss','html','file','url');
 
 /* End of file autoload.php */
-/* Location: sparks/scss/.../config/autoload.php */
+/* Location: sparks/scss/../config/autoload.php */
