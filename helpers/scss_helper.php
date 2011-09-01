@@ -38,7 +38,7 @@ if (!function_exists('cache_scss')) {
 
 		// if the file exists, then no changes were made, skip the rendering process
 		if (!file_exists($cache_file)) {
-			$css = render_scss($path, 'compressed', $cache_file);
+			$css = render_scss($path, $cache_file);
 		}
 
 		// return full url to the cached css file
