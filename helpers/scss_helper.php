@@ -87,7 +87,7 @@ if (!function_exists('cache_scss')) {
  */
 
 if (!function_exists('render_scss')) {
-	function render_scss($scss_file, $output_file=false, $scss_parameters='--style compressed') {
+	function render_scss($scss_file, $output_file=false, $scss_parameters=null) {
 		
 		// check the output folder exists and create it if needed
 		if ($output_file) {
@@ -96,6 +96,9 @@ if (!function_exists('render_scss')) {
 				mkdir($dir, 0777, TRUE);
 			}
 		}
+
+		// load scss params if not specified
+		if ( ! $scss_parameters) $scss_parameters = config_item('scss_params');
 		
 		// escape our scss command for safety
 		$cmd = escapeshellcmd("sass $scss_parameters $scss_file $output_file");
