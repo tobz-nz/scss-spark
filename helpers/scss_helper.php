@@ -1,4 +1,28 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
+/**
+ *
+ * SCSS Helper
+ *
+ * A helper that compiles scss files to css on page load
+ * (if the file has been changed since last time)
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Attribution-ShareAlike 3.0 that is
+ * bundled with this package in the files license.txt.  It is
+ * also available through the world wide web at this URL:
+ * http://creativecommons.org/licenses/by-sa/3.0/nz/
+ *
+ * @package   scss
+ * @author    Toby Evans (@t0bz)
+ * @copyright Copyright (c) 2011, Toby Evans.
+ * @license   http://creativecommons.org/licenses/by-sa/3.0/nz/
+ * @link      http://getsparks.org/packages/autoform/versions/HEAD/show
+ * @since     Version 3.0
+ * @filesource
+ */
+
+
 
 /**
  * scss
