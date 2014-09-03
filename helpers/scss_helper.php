@@ -33,7 +33,7 @@
  * @param	string 	path to scss relative to index.php
  * @return	string
  */
-if (!function_exists('cache_scss')) {
+if (!function_exists('scss')) {
 	function scss($path) {
 
 		// make sure the path is relative, so we know our final url will be correct
